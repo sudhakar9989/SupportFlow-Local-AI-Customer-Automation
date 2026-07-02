@@ -1,2 +1,47 @@
-# SupportFlow-Local-AI-Customer-Automation
-In this project, the problem is addressed by the development of an intelligent agent that provides support locally. With SupportFlow, small businesses can replace the cloud-based service.
+# ** Customer Support Automation with LangChain & Ollama**
+
+Welcome , In this project, you’ll step into the role of a data scientist at a fast-scaling e-commerce startup, helping automate customer service using local language models.
+
+---
+
+## **Scenario Overview**
+
+You’ve just joined **Trendora**, a booming e-commerce platform. The support team is overwhelmed by repetitive emails, complaints, and review analysis. To improve operations without compromising data privacy, your boss wants everything running locally using open-source LLMs.
+
+**Your task:**  
+Use **LangChain** and **Ollama** to build a local AI system that can:
+- Rephrase angry customer emails into calm and respectful responses  
+- Translate informal messages into professional English  
+- Extract structured data (like delivery speed or price feedback) from raw product reviews  
+- Enforce reliable JSON formatting for easy downstream processing  
+
+You’ll use Python to prototype and test these use cases step by step — all with locally deployed language models using Ollama.
+
+---
+
+## **Steps to Follow**
+
+### **1. Introduction to the Scenario**
+- Understand Trendora’s challenge: local AI to support customer service at scale.
+
+### **2. Task 1 - Set Up Ollama Locally**
+- Install Ollama and download the Meta LLaMA 3.2 model to run language models on your machine.
+
+### **3. Task 2 - Test a Simple Prompt**
+- Send a basic math prompt to validate that the model is running correctly.
+
+### **4. Task 3 - Rephrase an Angry Email**
+- Rewrite a frustrated customer message in a professional tone using LangChain prompts.
+
+### **5. Task 4 - Build Reusable Prompt Templates**
+- Use `PromptTemplate` to standardize how messages are rewritten.
+
+### **6. Task 5 - Extract Structured Info from Reviews**
+- Extract gift status, delivery time, and price perception from a product review using prompt engineering.
+
+### **7. Task 6 - Use Output Parsers for JSON Consistency**
+- Apply LangChain’s `StructuredOutputParser` to enforce a consistent JSON schema.
+
+### **8. Task 7 - Parse and Use Model Output**
+- Convert the model’s output into a Python dictionary for use in automation workflows.
+
